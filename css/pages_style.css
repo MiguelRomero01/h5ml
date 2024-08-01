@@ -1,3 +1,22 @@
+/*------divs--------*/
+
+.gamesMicrosoft-container {
+    display: flex;
+}
+
+
+/*--------titles-------*/
+
+.subtitles-games {
+    text-align: center;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #333;
+    color: white;
+    padding: 6px;
+}
+
+
 /*-----Menu desplegable--------*/
 
 .dropdown {
@@ -45,7 +64,13 @@
 
 /*-images-*/
 
-.dropMenu-videogames {
+.dropMenu-img-videogames {
     width: 130px;
     height: 120px;
+}
+
+.imgs-games {
+    width: 50%;
+    height: 40%;
+    margin: 10px;
 }
